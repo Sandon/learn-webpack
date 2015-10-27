@@ -1,0 +1,15 @@
+/**
+ * Created by sway on 15/9/19.
+ * Desc 
+ */
+
+h1 {
+  font-size: 54px;
+}
+
+div {
+  width: 354px;
+  height: 354px;
+  border: 2px solid green;
+  background-image: url(tree.jpg);
+}
