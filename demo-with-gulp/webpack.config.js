@@ -18,7 +18,7 @@ module.exports = {
                 loader: 'style!css!less'
             },
             {
-                test: /\.jpeg$/,
+                test: /(\.jpeg|\.jpg)$/,
                 loader: 'url?limit=4'
             }
         ]
