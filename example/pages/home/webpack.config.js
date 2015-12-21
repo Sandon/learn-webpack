@@ -6,9 +6,10 @@ module.exports = {
         vendor: ['jquery', '../../modules/someModule/someModule.js']
     },
     output: {
-        path : require("path").resolve("build/"), // output.path field is necessary if using webpack-dev-server API
+        //path : require("path").resolve("build/"), // output.path field is necessary if using webpack-dev-server API
+        path: './build/',
         filename: '[name].js',
-        publicPath : '../build/'
+        publicPath : '/build/'
     },
     module: {
         loaders: [
