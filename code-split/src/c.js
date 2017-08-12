@@ -1,4 +1,4 @@
-require('./colorful');
+// require('./colorful');
 
 var name = 'Module C';
 

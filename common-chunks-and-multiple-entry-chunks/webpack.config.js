@@ -21,7 +21,9 @@ module.exports = {
             }
         ]
     },
-    plugins: [ commonPlugin ],
+    plugins: [
+      commonPlugin
+    ],
     resolve: {
         extensions: ['', '.js']
     }
